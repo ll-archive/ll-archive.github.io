@@ -11,6 +11,8 @@ $ivory: #FCFBED;
 $pink-lavender: #E6B9D4;
 $cherry-blossom: #FFB2C7;
 $mimi-pink: #fff1f4;
+$light-pink: #FFD5E0;
+$lighter-pink: #FFEAEF;
 
 /* generally useful other colors */
 $cream: #F4F3EE;
@@ -71,3 +73,21 @@ h1, .page-title {
   color: $dark-pink;
 }
 
+// Inactive page buttons
+.page-link {
+  color:$dark-pink;
+  border-color: $pink-lavender;
+    
+  &:hover {
+    color: $cherry-blossom;
+  }
+}
+
+// Active page button
+.page-item.active .page-link,
+.page-link.active {
+  color: $dark-pink;
+  background-color: $light-pink;
+  border-color: $dark-pink;
+
+}
