@@ -51,6 +51,14 @@ $code-color: $ivory; // inline code text color
   background-color: $white;
 }
 
+.form-control:focus {
+  background-color: $white;
+}
+
+.quarto-category {
+  background-color: $white;
+}
+
 .card-body {
   background-color: $white;
 }
