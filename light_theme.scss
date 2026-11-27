@@ -3,14 +3,18 @@
 /* https://ucsb-meds.github.io/customizing-quarto-websites/#/title-slide */
 
 // Colors
+$mauve: #E8C4DA;
 $dark-purple: #49416D;
 $dark-pink: #A94282;
+$darker-pink: #762E5A;
 $pale-purple: #F8EBFF;
 $blue: #99C0FA;
 $ivory: #FCFBED;
 $pink-lavender: #E6B9D4;
 $cherry-blossom: #FFB2C7;
+$light-cherry-blossom: #FFB9CC;
 $mimi-pink: #fff1f4;
+$pink: #FFAAC1;
 $light-pink: #FFD5E0;
 $lighter-pink: #FFEAEF;
 
@@ -81,6 +85,14 @@ h1, .page-title {
   &:hover {
     color: $cherry-blossom;
   }
+  
+  &:focus {
+    color: $darker-pink;
+    background-color: $mauve;
+    border-color: $darker-pink;
+  }
+  
+
 }
 
 // Active page button
