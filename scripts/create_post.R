@@ -1,17 +1,28 @@
+## -------------------------------------------------- ##
+#                  Housekeeping -----
+## -------------------------------------------------- ##
+# Purpose:
+# This script programmatically creates a new post
 
-# Define dynamic content
+# Set item ID
 id <- "461-3607-0"
-
+# Read in item CSV
 item_df <- read.csv(file.path("posts", id, paste0("info_", id, ".csv")))
 
+## -------------------------------------------------- ##
+#                  Create post -----
+## -------------------------------------------------- ##
+
+# Pick out specific pieces of info
 en_name <- item_df$value[2]
 jp_name <- item_df$value[3]
 category <- item_df$value[4]
 season <- item_df$value[5]
 
+# List paths to stock images
 item_imgs <- list.files(file.path("posts", id), pattern = ".jpg")
 
-# Build the YAML header, markdown, and R code chunks
+# Build the qmd file
 qmd_content <- sprintf('---
 title: "%s"
 date: last-modified
