@@ -2,31 +2,30 @@
 #                  Housekeeping -----
 ## -------------------------------------------------- ##
 # Purpose:
-# This script programmatically creates a new post
-
-# Load packages
-library(tidyverse)
-
-# Set item ID
-id <- "361-6154-0"
-# Read in item CSV
-item_df <- read.csv(file.path("posts", id, paste0("info_", id, ".csv")))
+# This function programmatically creates a new post
 
 ## -------------------------------------------------- ##
-#                  Create post -----
+#                    Function -----
 ## -------------------------------------------------- ##
 
-# Pick out specific pieces of info
-en_name <- item_df$value[2]
-jp_name <- item_df$value[3]
-category <- item_df$value[4]
-season <- item_df$value[5]
+create_post <- function(id){
+  
+  # -------------------- Create post --------------------
+  
+  # Read in item CSV
+  item_df <- read.csv(file.path("posts", id, paste0("info_", id, ".csv")))
 
-# List paths to stock images
-item_imgs <- list.files(file.path("posts", id), pattern = ".jpg")
-
-# Build the qmd file
-qmd_content <- sprintf('---
+  # Pick out specific pieces of info
+  en_name <- item_df$value[2]
+  jp_name <- item_df$value[3]
+  category <- item_df$value[4]
+  season <- item_df$value[5]
+  
+  # List paths to stock images
+  item_imgs <- list.files(file.path("posts", id), pattern = ".jpg")
+  
+  # Build the qmd file
+  qmd_content <- sprintf('---
 title: "%s"
 date: last-modified
 description: "%s"
@@ -47,6 +46,8 @@ DT::datatable(item_df, options = list(pageLength = 15))
 
 ', en_name, jp_name, category, season,
    item_imgs[1], item_imgs[2], item_imgs[3], item_imgs[4], id)
-
-# Write to a .qmd file
-writeLines(qmd_content, con = file.path("posts", id, "index.qmd"))
+  
+  # Write to a .qmd file
+  writeLines(qmd_content, con = file.path("posts", id, "index.qmd"))
+  
+}
