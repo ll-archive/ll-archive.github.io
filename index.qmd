@@ -12,4 +12,4 @@ page-layout: full
 title-block-banner: false
 ---
 
-
+![](images/div7.png){width=100%}
