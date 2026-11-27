@@ -1,0 +1,19 @@
+{
+  "hash": "739bbf85b84719627075ad4a5d23e48d",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Princess Rose One-piece\"\ndate: last-modified\ndescription: \"Princess Rose ワンピース\"\ncategories: [Dress, Summer 2026]\n---\n\n![](361-6154-0-m-01-dl.jpg){width=48%} ![](361-6154-0-m-02-dl.jpg){width=48%}\n![](361-6154-0-m-03-dl.jpg){width=48%} ![](361-6154-0-s-01-dl.jpg){width=48%}\n\n\n::: {.cell}\n::: {.cell-output-display}\n\n```{=html}\n<div class=\"datatables html-widget html-fill-item\" id=\"htmlwidget-d7f734df5f9af0ca25e8\" style=\"width:100%;height:auto;\"></div>\n<script type=\"application/json\" data-for=\"htmlwidget-d7f734df5f9af0ca25e8\">{\"x\":{\"filter\":\"none\",\"vertical\":false,\"data\":[[\"1\",\"2\",\"3\",\"4\",\"5\",\"6\",\"7\",\"8\",\"9\",\"10\",\"11\"],[\"id\",\"en_name\",\"jp_name\",\"category\",\"season\",\"price\",\"jp_desc\",\"jp_material\",\"jp_size\",\"jp_color\",\"jp_size_label\"],[\"361-6154-0\",\"Princess Rose One-piece\",\"Princess Rose ワンピース\",\"Dress\",\"Summer 2026\",\"18000\",\"たくさんのバラに囲まれたお姫様のお部屋をイメージした柄のワンピースの登場です♡ハートのティアラにメイクボックスなど上品なモチーフに加えパールやビジューなどぐるりとネックレスのようにスカラップ状に描かれております。身頃のリボンとパールの組み合わせのデザインやお袖の仕様など柄だけでなくワンピースのデザインもしっかりお姫様デザインに統一いたしました♡スカートにはたっぷりハードメッシュを忍ばせミニドレスのようなシルエットに+*裾には2種類のバラ柄のチュールレースを使用した贅沢デザインとなっております♡左脇のファスナーを開閉し着用する仕様です。後ろベルトはゴムの入ったシャーリング仕様です。\",\"(表地)ポリエステル100%   (裏地)ポリエステル100%\",\"身丈 82.5cm / 身幅 46cm / 肩幅36cm / ウエスト 65cm (最大 91cm) / 袖丈 61.5cm / 袖幅15cm / 袖口 11cm / 裾幅133cm\",\"ブラック(104)/ピンク(110)/ブルー(150)\",\"Free\"]],\"container\":\"<table class=\\\"display\\\">\\n  <thead>\\n    <tr>\\n      <th> <\\/th>\\n      <th>detail<\\/th>\\n      <th>value<\\/th>\\n    <\\/tr>\\n  <\\/thead>\\n<\\/table>\",\"options\":{\"pageLength\":15,\"columnDefs\":[{\"orderable\":false,\"targets\":0},{\"name\":\" \",\"targets\":0},{\"name\":\"detail\",\"targets\":1},{\"name\":\"value\",\"targets\":2}],\"order\":[],\"autoWidth\":false,\"orderClasses\":false,\"lengthMenu\":[10,15,25,50,100]}},\"evals\":[],\"jsHooks\":[]}</script>\n```\n\n:::\n:::\n\n\n\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {
+      "include-in-header": [
+        "<link href=\"../../site_libs/htmltools-fill-0.5.9/fill.css\" rel=\"stylesheet\" />\n<script src=\"../../site_libs/htmlwidgets-1.6.4/htmlwidgets.js\"></script>\n<link href=\"../../site_libs/datatables-css-0.0.0/datatables-crosstalk.css\" rel=\"stylesheet\" />\n<script src=\"../../site_libs/datatables-binding-0.34.0/datatables.js\"></script>\n<script src=\"../../site_libs/jquery-3.6.0/jquery-3.6.0.min.js\"></script>\n<link href=\"../../site_libs/dt-core-1.13.6/css/jquery.dataTables.min.css\" rel=\"stylesheet\" />\n<link href=\"../../site_libs/dt-core-1.13.6/css/jquery.dataTables.extra.css\" rel=\"stylesheet\" />\n<script src=\"../../site_libs/dt-core-1.13.6/js/jquery.dataTables.min.js\"></script>\n<link href=\"../../site_libs/crosstalk-1.2.2/css/crosstalk.min.css\" rel=\"stylesheet\" />\n<script src=\"../../site_libs/crosstalk-1.2.2/js/crosstalk.min.js\"></script>\n"
+      ]
+    },
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
