@@ -4,8 +4,11 @@
 # Purpose:
 # This script programmatically creates a new post
 
+# Load packages
+library(tidyverse)
+
 # Set item ID
-id <- "461-3607-0"
+id <- "361-6154-0"
 # Read in item CSV
 item_df <- read.csv(file.path("posts", id, paste0("info_", id, ".csv")))
 

@@ -10,12 +10,13 @@ library(tidyverse)
 library(chromote)
 library(lubridate)
 
+# Load function to get the season
 source(file.path("scripts", "get_season.R"))
 
 # Set item URL
-my_url <- "https://www.tokyokawaiilife.jp/fs/lizlisaadmin/all-dresses/262-6032-0"
+my_url <- "https://www.tokyokawaiilife.jp/fs/lizlisaadmin/all-dresses/361-6154-0"
 # Set item name in English
-en_name <- "Ribbon Tiered One-piece"
+en_name <- "Princess Rose One-piece"
 
 ## -------------------------------------------------- ##
 #                   Extract HTML -----
@@ -56,7 +57,7 @@ item_jp_description <- page %>%
   rvest::html_text2()
 
 # If no description is provided, put placeholder text
-if (nchar(item_jp_description) == 0){
+if (length(item_jp_description) == 0){
   item_jp_description <- "No description provided"
 }
 
