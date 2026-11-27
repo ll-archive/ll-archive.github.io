@@ -6,6 +6,12 @@ website:
   favicon: images/fav4.png
   site-url: ll-archive.github.io # you must change this appropriately for RSS feeds to work properly
   title: "Liz Lisa Archive"
+  margin-footer: |
+    ![](/images/side1.png){width=40%}
+  page-footer:
+    left: "![](/images/div3.png){width=100%}"
+    center: "![](/images/div3.png){width=100%}"
+    right: "![](/images/div3.png){width=100%}"
   navbar:
     right:
       - about.qmd

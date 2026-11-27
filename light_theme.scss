@@ -41,24 +41,33 @@ $code-color: $ivory; // inline code text color
 
 /*-- scss:rules --*/
 
-// Navbar text size
-
+// Drop-down menu background color
 .form-select {
   background-color: $white;
 }
 
+// Filter bar background color
 .form-control {
   background-color: $white;
 }
 
+// Filter bar background color (pressed)
 .form-control:focus {
   background-color: $white;
 }
 
+// Category tags background color
 .quarto-category {
   background-color: $white;
 }
 
+// Card background color
 .card-body {
   background-color: $white;
 }
+
+// Heading 1 color
+h1, .page-title {
+  color: $dark-pink;
+}
+
