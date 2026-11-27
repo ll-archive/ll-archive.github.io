@@ -22,7 +22,7 @@ create_post <- function(id){
   season <- item_df$value[5]
   
   # List paths to stock images
-  item_imgs <- list.files(file.path("posts", id), pattern = ".jpg")
+  item_imgs <- list.files(file.path("posts", id), pattern = "pl.jpg")
   
   # Build the qmd file
   qmd_content <- sprintf('---

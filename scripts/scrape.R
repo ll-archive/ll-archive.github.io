@@ -100,7 +100,7 @@ scrape <- function(url, en_name){
   # Edit URLs so they point to the large version
   for (i in seq_along(images_orig)){
     if (stringr::str_detect(images_orig[i], "ds.jpg")){
-      images_to_download[[i]] <- stringr::str_replace(images_orig[i], pattern = "ds.jpg", replacement = "dl.jpg")
+      images_to_download[[i]] <- stringr::str_replace(images_orig[i], pattern = "ds.jpg", replacement = "pl.jpg")
     } else {
       images_to_download[[i]] <- images_orig[i]
     }
