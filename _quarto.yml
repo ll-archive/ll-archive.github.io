@@ -1,0 +1,22 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  description: "A blog built with Quarto"
+  site-url: ll-archive.github.io # you must change this appropriately for RSS feeds to work properly
+  title: "Liz Lisa Archive"
+  navbar:
+    right:
+      - about.qmd
+      - icon: github
+        href: https://github.com/ll-archive/ll-archive.github.io
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+      - light_theme.scss
+
+
+

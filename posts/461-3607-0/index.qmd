@@ -1,0 +1,20 @@
+---
+title: "Bunny Ear Feather Knit Hoodie"
+date: last-modified
+description: "うさみみフェザーニットパーカー"
+categories: [Tops, Fall 2026]
+---
+
+![](461-3607-0-m-01-dl.jpg){width=48%} ![](461-3607-0-m-02-dl.jpg){width=48%}
+![](461-3607-0-m-03-dl.jpg){width=48%} ![](461-3607-0-s-01-dl.jpg){width=48%}
+
+```{r}
+#| echo: false
+#| warning: false
+library(DT)
+library(tidyverse)
+item_df <- read.csv(file.path(paste0("info_", "461-3607-0", ".csv")))
+DT::datatable(item_df, options = list(pageLength = 15))
+```
+
+

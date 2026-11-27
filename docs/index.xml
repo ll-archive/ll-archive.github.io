@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Liz Lisa Archive</title>
+<link>ll-archive.github.io/</link>
+<atom:link href="ll-archive.github.io/index.xml" rel="self" type="application/rss+xml"/>
+<description>A blog built with Quarto</description>
+<generator>quarto-1.10.18</generator>
+<lastBuildDate>Fri, 27 Nov 2026 00:59:48 GMT</lastBuildDate>
+<item>
+  <title>Bunny Ear Feather Knit Hoodie</title>
+  <link>ll-archive.github.io/posts/461-3607-0/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p><img src="ll-archive.github.io/posts/461-3607-0/461-3607-0-m-01-dl.jpg" class="img-fluid" style="width:48.0%"> <img src="ll-archive.github.io/posts/461-3607-0/461-3607-0-m-02-dl.jpg" class="img-fluid" style="width:48.0%"> <img src="ll-archive.github.io/posts/461-3607-0/461-3607-0-m-03-dl.jpg" class="img-fluid" style="width:48.0%"> <img src="ll-archive.github.io/posts/461-3607-0/461-3607-0-s-01-dl.jpg" class="img-fluid" style="width:48.0%"></p>
+<div class="cell">
+<div class="cell-output-display">
+<div class="datatables html-widget html-fill-item" id="htmlwidget-a0ccdf8e13a7a01212f0" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-a0ccdf8e13a7a01212f0">{"x":{"filter":"none","vertical":false,"data":[["1","2","3","4","5","6","7","8","9","10","11"],["id","en_name","jp_name","category","season","price","jp_desc","jp_material","jp_size","jp_color","jp_size_label"],["461-3607-0","Bunny Ear Feather Knit Hoodie","うさみみフェザーニットパーカー","Tops","Fall 2026","15000","フワフワのフェザーニット素材に裏地が付いており、防寒性も◎メニーリボンデザインが可愛いポイントです。フードのうさみみとリボンはボタンでお取り外しが可能なので、その日の気分に合わせてアレンジが可能です。","(本体) アクリル 60％ / ナイロン 40% (裏地) ポリエステル 60％ / 綿 40% (フェイクファー) ポリエステル 100%","身丈 66.5cm / 身幅 54cm / 肩幅 57cm / 袖丈 49cm / 袖口幅 8cm / 裾幅 45.5cm","ホワイト(101)/ブラック(104)/ピンク(110)","Free"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th> <\/th>\n      <th>detail<\/th>\n      <th>value<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":15,"columnDefs":[{"orderable":false,"targets":0},{"name":" ","targets":0},{"name":"detail","targets":1},{"name":"value","targets":2}],"order":[],"autoWidth":false,"orderClasses":false,"lengthMenu":[10,15,25,50,100]}},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
+
+
+
+ ]]></description>
+  <category>Tops</category>
+  <category>Fall 2026</category>
+  <guid>ll-archive.github.io/posts/461-3607-0/</guid>
+  <pubDate>Fri, 27 Nov 2026 00:59:48 GMT</pubDate>
+</item>
+</channel>
+</rss>

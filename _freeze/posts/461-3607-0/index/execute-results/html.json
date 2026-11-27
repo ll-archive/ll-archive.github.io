@@ -1,0 +1,19 @@
+{
+  "hash": "e1140e51cb6f6459cd82169216618bed",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Bunny Ear Feather Knit Hoodie\"\ndate: last-modified\ndescription: \"うさみみフェザーニットパーカー\"\ncategories: [Tops, Fall 2026]\n---\n\n![](461-3607-0-m-01-dl.jpg){width=48%} ![](461-3607-0-m-02-dl.jpg){width=48%}\n![](461-3607-0-m-03-dl.jpg){width=48%} ![](461-3607-0-s-01-dl.jpg){width=48%}\n\n\n::: {.cell}\n::: {.cell-output-display}\n\n```{=html}\n<div class=\"datatables html-widget html-fill-item\" id=\"htmlwidget-a0ccdf8e13a7a01212f0\" style=\"width:100%;height:auto;\"></div>\n<script type=\"application/json\" data-for=\"htmlwidget-a0ccdf8e13a7a01212f0\">{\"x\":{\"filter\":\"none\",\"vertical\":false,\"data\":[[\"1\",\"2\",\"3\",\"4\",\"5\",\"6\",\"7\",\"8\",\"9\",\"10\",\"11\"],[\"id\",\"en_name\",\"jp_name\",\"category\",\"season\",\"price\",\"jp_desc\",\"jp_material\",\"jp_size\",\"jp_color\",\"jp_size_label\"],[\"461-3607-0\",\"Bunny Ear Feather Knit Hoodie\",\"うさみみフェザーニットパーカー\",\"Tops\",\"Fall 2026\",\"15000\",\"フワフワのフェザーニット素材に裏地が付いており、防寒性も◎メニーリボンデザインが可愛いポイントです。フードのうさみみとリボンはボタンでお取り外しが可能なので、その日の気分に合わせてアレンジが可能です。\",\"(本体) アクリル 60％ / ナイロン 40% (裏地) ポリエステル 60％ / 綿 40% (フェイクファー) ポリエステル 100%\",\"身丈 66.5cm / 身幅 54cm / 肩幅 57cm / 袖丈 49cm / 袖口幅 8cm / 裾幅 45.5cm\",\"ホワイト(101)/ブラック(104)/ピンク(110)\",\"Free\"]],\"container\":\"<table class=\\\"display\\\">\\n  <thead>\\n    <tr>\\n      <th> <\\/th>\\n      <th>detail<\\/th>\\n      <th>value<\\/th>\\n    <\\/tr>\\n  <\\/thead>\\n<\\/table>\",\"options\":{\"pageLength\":15,\"columnDefs\":[{\"orderable\":false,\"targets\":0},{\"name\":\" \",\"targets\":0},{\"name\":\"detail\",\"targets\":1},{\"name\":\"value\",\"targets\":2}],\"order\":[],\"autoWidth\":false,\"orderClasses\":false,\"lengthMenu\":[10,15,25,50,100]}},\"evals\":[],\"jsHooks\":[]}</script>\n```\n\n:::\n:::\n\n\n\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {
+      "include-in-header": [
+        "<link href=\"../../site_libs/htmltools-fill-0.5.9/fill.css\" rel=\"stylesheet\" />\n<script src=\"../../site_libs/htmlwidgets-1.6.4/htmlwidgets.js\"></script>\n<link href=\"../../site_libs/datatables-css-0.0.0/datatables-crosstalk.css\" rel=\"stylesheet\" />\n<script src=\"../../site_libs/datatables-binding-0.34.0/datatables.js\"></script>\n<script src=\"../../site_libs/jquery-3.6.0/jquery-3.6.0.min.js\"></script>\n<link href=\"../../site_libs/dt-core-1.13.6/css/jquery.dataTables.min.css\" rel=\"stylesheet\" />\n<link href=\"../../site_libs/dt-core-1.13.6/css/jquery.dataTables.extra.css\" rel=\"stylesheet\" />\n<script src=\"../../site_libs/dt-core-1.13.6/js/jquery.dataTables.min.js\"></script>\n<link href=\"../../site_libs/crosstalk-1.2.2/css/crosstalk.min.css\" rel=\"stylesheet\" />\n<script src=\"../../site_libs/crosstalk-1.2.2/js/crosstalk.min.js\"></script>\n"
+      ]
+    },
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

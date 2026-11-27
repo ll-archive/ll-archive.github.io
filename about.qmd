@@ -1,0 +1,13 @@
+---
+title: "About"
+image: profile.png
+about:
+  template: jolla
+  links:
+    - icon: github
+      text: Github
+      href: https://github.com/ll-archive/ll-archive.github.io
+
+---
+
+This is a personal archive of Liz Lisa items. This site is not affliated with Liz Lisa in any way. To purchase Liz Lisa items, please visit the official sites at [tokyokawaiilife.jp](https://www.tokyokawaiilife.jp/) and [tokyokawaiilife.com](https://tokyokawaiilife.com/).

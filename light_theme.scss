@@ -1,0 +1,56 @@
+/*-- scss:defaults --*/
+/* useful resource on customizing Quarto sites */
+/* https://ucsb-meds.github.io/customizing-quarto-websites/#/title-slide */
+
+// Colors
+$dark-purple: #49416D;
+$dark-pink: #A94282;
+$pale-purple: #F8EBFF;
+$blue: #99C0FA;
+$ivory: #FCFBED;
+$pink-lavender: #E6B9D4;
+$cherry-blossom: #FFB2C7;
+$mimi-pink: #fff1f4;
+
+/* generally useful other colors */
+$cream: #F4F3EE;
+$white: #FFFFFF;
+$gray-0: #d6d6d6;
+$gray-1: #BCB8B1;
+$gray-2: #8A817C;
+$gray-3: #222823;
+$gray-4: #191919;
+$black: #08090A;
+
+// Fonts
+$font-size: 25px;
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400&family=Open+Sans:wght@400&display=swap');
+
+// Base document colors
+$navbar-bg: $cherry-blossom; // navbar
+$navbar-fg: $dark-pink; // navbar foreground elements
+$navbar-hl: $mimi-pink; // highlight color when on a page
+$body-bg: $mimi-pink; // page background
+$body-color: $dark-purple; // page text
+$link-color: $blue; // hyperlinks
+
+// Code text
+$code-bg: $cherry-blossom; // inline code background color
+$code-block-bg: $cherry-blossom; // code block background color
+$code-color: $ivory; // inline code text color
+
+/*-- scss:rules --*/
+
+// Navbar text size
+
+.form-select {
+  background-color: $white;
+}
+
+.form-control {
+  background-color: $white;
+}
+
+.card-body {
+  background-color: $white;
+}
