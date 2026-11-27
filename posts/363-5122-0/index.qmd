@@ -1,0 +1,20 @@
+---
+title: "Ladder Ribbon Gingham Tiered Skirt-Pants"
+date: last-modified
+description: "はしごリボンギンガムティアードスカパン"
+categories: [Bottoms, Spring 2025]
+---
+
+![](363-5122-0-m-01-dl.jpg){width=48%} ![](363-5122-0-m-02-dl.jpg){width=48%}
+![](363-5122-0-m-03-dl.jpg){width=48%} ![](363-5122-0-s-01-dl.jpg){width=48%}
+
+```{r}
+#| echo: false
+#| warning: false
+library(DT)
+library(tidyverse)
+item_df <- read.csv(file.path(paste0("info_", "363-5122-0", ".csv")))
+DT::datatable(item_df, options = list(pageLength = 15))
+```
+
+
