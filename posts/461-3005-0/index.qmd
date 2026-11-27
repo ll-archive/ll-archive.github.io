@@ -5,8 +5,8 @@ description: "Twin Bearsニットトップス"
 categories: [Tops, Fall 2021]
 ---
 
-![](461-3005-0-m-01-dl.jpg){width=48%} ![](461-3005-0-m-02-dl.jpg){width=48%}
-![](461-3005-0-m-03-dl.jpg){width=48%} ![](461-3005-0-m-04-dl.jpg){width=48%}
+![](461-3005-0-m-01-pl.jpg){width=48%} ![](461-3005-0-m-02-pl.jpg){width=48%}
+![](461-3005-0-m-03-pl.jpg){width=48%} ![](461-3005-0-m-04-pl.jpg){width=48%}
 
 ```{r}
 #| echo: false
