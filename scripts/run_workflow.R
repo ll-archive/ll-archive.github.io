@@ -20,15 +20,15 @@ source(file.path("scripts", "create_post.R"))
 ## -------------------------------------------------- ##
 
 # Set item URL
-my_url <- "https://www.tokyokawaiilife.jp/fs/lizlisaadmin/all-bottoms/153-5108-0"
+my_url <- "https://www.tokyokawaiilife.jp/fs/lizlisaadmin/all-tops/451-3515-0"
 # Set item name in English
-my_en_name <- "Double Ribbon Belt Skirt-Pants"
+my_en_name <- "Eco-Fur Collar Peplum Cardigan"
 
 # Scrape data and images
 scrape(url = my_url, en_name = my_en_name)
 
 # Set item ID
-my_id <- "153-5108-0"
+my_id <- stringr::str_extract(my_url, "[:digit:]{3}-[:digit:]{4}-[:digit:]{1}")
 
 # Create post
 create_post(id = my_id)
