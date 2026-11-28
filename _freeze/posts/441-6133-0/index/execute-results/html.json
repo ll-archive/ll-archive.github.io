@@ -1,0 +1,19 @@
+{
+  "hash": "49f10db6bd080d9b583da2a65716245d",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Salon de Fraise One-Piece\"\ndate: last-modified\ndescription: \"Salon de Fraise柄ワンピース\"\ncategories: [Dress, Fall 2024]\n---\n\n![](441-6133-0-m-01-pl.jpg){width=48%} ![](441-6133-0-m-02-pl.jpg){width=48%}\n![](441-6133-0-m-03-pl.jpg){width=48%} ![](441-6133-0-s-10-pl.jpg){width=48%}\n\n\n::: {.cell}\n::: {.cell-output-display}\n\n```{=html}\n<div class=\"datatables html-widget html-fill-item\" id=\"htmlwidget-e8478a9987b8b4bc27f4\" style=\"width:100%;height:auto;\"></div>\n<script type=\"application/json\" data-for=\"htmlwidget-e8478a9987b8b4bc27f4\">{\"x\":{\"filter\":\"none\",\"vertical\":false,\"data\":[[\"1\",\"2\",\"3\",\"4\",\"5\",\"6\",\"7\",\"8\",\"9\",\"10\",\"11\"],[\"id\",\"en_name\",\"jp_name\",\"category\",\"season\",\"price\",\"jp_desc\",\"jp_material\",\"jp_size\",\"jp_color\",\"jp_size_label\"],[\"441-6133-0\",\"Salon de Fraise One-Piece\",\"Salon de Fraise柄ワンピース\",\"Dress\",\"Fall 2024\",\"16800\",\"いちごとスイーツが散りばめられたオリジナル柄のワンピースです♡裾とベルトにはオリジナルの柄の名前が入ったプリントテープがあしらわれておりバッグデザインがカシュクールになっているところがポイントです+*丸襟にデザインを一新して着やすいシルエットにいたしました+*胸元のリボンブローチはお取り外しが可能な仕様となっております。\",\"(表地) ポリエステル 100% (裏地) ポリエステル 100% (別布) ナイロン 96% / ポリウレタン 4%\",\"身丈 83.5cm / 身幅 46cm / ウエスト 66cm (最大)96cm / 袖丈 63.5cm / 袖口 11.5cm / 裾幅 150cm\",\"ブラック(104)/ピンク(110)/ミントグリーン(140)\",\"Free\"]],\"container\":\"<table class=\\\"display\\\">\\n  <thead>\\n    <tr>\\n      <th> <\\/th>\\n      <th>detail<\\/th>\\n      <th>value<\\/th>\\n    <\\/tr>\\n  <\\/thead>\\n<\\/table>\",\"options\":{\"pageLength\":15,\"columnDefs\":[{\"orderable\":false,\"targets\":0},{\"name\":\" \",\"targets\":0},{\"name\":\"detail\",\"targets\":1},{\"name\":\"value\",\"targets\":2}],\"order\":[],\"autoWidth\":false,\"orderClasses\":false,\"lengthMenu\":[10,15,25,50,100]}},\"evals\":[],\"jsHooks\":[]}</script>\n```\n\n:::\n:::\n\n\n\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {
+      "include-in-header": [
+        "<link href=\"../../site_libs/htmltools-fill-0.5.9/fill.css\" rel=\"stylesheet\" />\n<script src=\"../../site_libs/htmlwidgets-1.6.4/htmlwidgets.js\"></script>\n<link href=\"../../site_libs/datatables-css-0.0.0/datatables-crosstalk.css\" rel=\"stylesheet\" />\n<script src=\"../../site_libs/datatables-binding-0.34.0/datatables.js\"></script>\n<script src=\"../../site_libs/jquery-3.6.0/jquery-3.6.0.min.js\"></script>\n<link href=\"../../site_libs/dt-core-1.13.6/css/jquery.dataTables.min.css\" rel=\"stylesheet\" />\n<link href=\"../../site_libs/dt-core-1.13.6/css/jquery.dataTables.extra.css\" rel=\"stylesheet\" />\n<script src=\"../../site_libs/dt-core-1.13.6/js/jquery.dataTables.min.js\"></script>\n<link href=\"../../site_libs/crosstalk-1.2.2/css/crosstalk.min.css\" rel=\"stylesheet\" />\n<script src=\"../../site_libs/crosstalk-1.2.2/js/crosstalk.min.js\"></script>\n"
+      ]
+    },
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

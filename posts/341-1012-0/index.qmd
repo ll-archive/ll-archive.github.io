@@ -1,0 +1,20 @@
+---
+title: "Open Shoulder Frill Blouse"
+date: last-modified
+description: "オープンショルダーフリルブラウス"
+categories: [Tops, Summer 2024]
+---
+
+![](341-1012-0-m-01-pl.jpg){width=48%} ![](341-1012-0-m-02-pl.jpg){width=48%}
+![](341-1012-0-m-03-pl.jpg){width=48%} ![](341-1012-0-s-01-pl.jpg){width=48%}
+
+```{r}
+#| echo: false
+#| warning: false
+library(DT)
+library(tidyverse)
+item_df <- read.csv(file.path(paste0("info_", "341-1012-0", ".csv")))
+DT::datatable(item_df, options = list(pageLength = 15))
+```
+
+
