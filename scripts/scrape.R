@@ -14,7 +14,7 @@ source(file.path("scripts", "get_season.R"))
 scrape <- function(url, en_name){
   
   # -------------------- Extract HTML --------------------
-
+  
   # Start a headless Chrome session
   b <- ChromoteSession$new()
   
@@ -67,21 +67,70 @@ scrape <- function(url, en_name){
     stringr::str_extract("[:digit:]{4}-[:digit:]{2}-[:digit:]{2}")
   season <- paste0(get_season(release_date), " ", stringr::str_sub(release_date, 1, 4))
   
-  # Compile item dataframe
-  item_df <- data.frame(id = id,
-                        en_name = en_name,
-                        jp_name = jp_name,
-                        category = category,
-                        season = season,
-                        price = price,
-                        jp_desc = item_jp_description,
-                        jp_material = item_jp_measure[[2]][1],
-                        jp_size = item_jp_measure[[2]][2],
-                        jp_color = item_jp_measure[[2]][4],
-                        jp_size_label = item_jp_measure[[2]][5]) %>%
-    dplyr::mutate(across(everything(), as.character)) %>%
-    tidyr::pivot_longer(cols = everything(), names_to = "detail", values_to = "value")
+  # Do special wrangling if the item is shoes
+  if (category == "Shoes"){
+    item_jp_measure2 <- item_tables[[5]] %>% 
+      dplyr::select(where(~ !all(is.na(.))))
+    
+    # Pick out specific pieces of info if there are only 2 sizes
+    if (ncol(item_jp_measure2) == 3){
+      item_jp_measure2_v2 <- item_jp_measure2 %>%
+        dplyr::mutate(size1 = paste(X1, X3),
+                      size2 = paste(X1, X4))
+      
+      size1_f <- item_jp_measure2_v2 %>% pull(size1)
+      size2_f <- item_jp_measure2_v2 %>% pull(size2)
+      
+      size_all <- paste(c(size1_f, size2_f), collapse = ", ")
+      
+    # Else pick out specific pieces of info if there are 3 sizes  
+    } else if (ncol(item_jp_measure2) == 4) {
+      item_jp_measure2_v2 <- item_jp_measure2 %>%
+        dplyr::mutate(size1 = paste(X1, X2),
+                      size2 = paste(X1, X3),
+                      size3 = paste(X1, X4))
+      
+      size1_f <- item_jp_measure2_v2 %>% pull(size1)
+      size2_f <- item_jp_measure2_v2 %>% pull(size2)
+      size3_f <- item_jp_measure2_v2 %>% pull(size3)
+      
+      size_all <- paste(c(size1_f, size2_f, size3_f), collapse = ", ")
+      
+    }
+    
+    # Compile item dataframe
+    item_df <- data.frame(id = id,
+                          en_name = en_name,
+                          jp_name = jp_name,
+                          category = category,
+                          season = season,
+                          price = price,
+                          jp_desc = item_jp_description,
+                          jp_material = item_jp_measure[[2]][1],
+                          jp_size = size_all,
+                          jp_color = item_jp_measure[[2]][3],
+                          jp_size_label = item_jp_measure[[2]][4]) %>%
+      dplyr::mutate(across(everything(), as.character)) %>%
+      tidyr::pivot_longer(cols = everything(), names_to = "detail", values_to = "value")
   
+  # Else proceeed as normal for all other item types    
+  } else {
+    
+    # Compile item dataframe
+    item_df <- data.frame(id = id,
+                          en_name = en_name,
+                          jp_name = jp_name,
+                          category = category,
+                          season = season,
+                          price = price,
+                          jp_desc = item_jp_description,
+                          jp_material = item_jp_measure[[2]][1],
+                          jp_size = item_jp_measure[[2]][2],
+                          jp_color = item_jp_measure[[2]][4],
+                          jp_size_label = item_jp_measure[[2]][5]) %>%
+      dplyr::mutate(across(everything(), as.character)) %>%
+      tidyr::pivot_longer(cols = everything(), names_to = "detail", values_to = "value")
+  }
   # Create item folder
   dir.create(file.path("posts", id))
   # Export
