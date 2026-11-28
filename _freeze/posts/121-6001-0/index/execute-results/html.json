@@ -1,0 +1,19 @@
+{
+  "hash": "b522fb4466a83af908991c5eccf939b1",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Strawberry Tea Party One-Piece\"\ndate: last-modified\ndescription: \"Strawberry Tea Party ワンピース\"\ncategories: [Dress, Winter 2021]\n---\n\n![](121-6001-0-m-01-pl.jpg){width=48%} ![](121-6001-0-m-02-pl.jpg){width=48%}\n![](121-6001-0-m-03-pl.jpg){width=48%} ![](121-6001-0-s-01-pl.jpg){width=48%}\n\n\n::: {.cell}\n::: {.cell-output-display}\n\n```{=html}\n<div class=\"datatables html-widget html-fill-item\" id=\"htmlwidget-4e17b4bfb9ba214f3dde\" style=\"width:100%;height:auto;\"></div>\n<script type=\"application/json\" data-for=\"htmlwidget-4e17b4bfb9ba214f3dde\">{\"x\":{\"filter\":\"none\",\"vertical\":false,\"data\":[[\"1\",\"2\",\"3\",\"4\",\"5\",\"6\",\"7\",\"8\",\"9\",\"10\",\"11\"],[\"id\",\"en_name\",\"jp_name\",\"category\",\"season\",\"price\",\"jp_desc\",\"jp_material\",\"jp_size\",\"jp_color\",\"jp_size_label\"],[\"121-6001-0\",\"Strawberry Tea Party One-Piece\",\"Strawberry Tea Party ワンピース\",\"Dress\",\"Winter 2021\",\"11800\",\"ストロベリーティーパーティーをモチーフにした、オリジナル柄のワンピースです。いちごのスイーツや花柄のティーカップが描かれています。胸元リボンと裾フリルがオリジナルのメッセージ入りギンガムプリントになっているのが可愛いポイント。エプロン風のデザインでとびきりガーリーに♡春気分を高めてくれるとっておきのワンピースに仕上げました。\",\"表地：ポリエステル100％/ 別地：ポリエステル100％/裏地：ポリエステル100％\",\"（サイズ：F）着丈：86.5cm / 肩幅：35cm / バスト：47cm / ウエスト66cm（最大90.5cm） / ベルト幅：4.5cm / 裾幅：110cm / 天巾：20cm（サイズ：M）着丈：90cm / 肩幅：35cm / バスト：49cm / ウエスト：70.0cm（最大94.5cm） / ベルト幅：4.5cm / 裾幅：110cm / 天巾：21cm\",\"ホワイト(101)/ピンク(110)/ブルー(150)\",\"Free/M\"]],\"container\":\"<table class=\\\"display\\\">\\n  <thead>\\n    <tr>\\n      <th> <\\/th>\\n      <th>detail<\\/th>\\n      <th>value<\\/th>\\n    <\\/tr>\\n  <\\/thead>\\n<\\/table>\",\"options\":{\"pageLength\":15,\"columnDefs\":[{\"orderable\":false,\"targets\":0},{\"name\":\" \",\"targets\":0},{\"name\":\"detail\",\"targets\":1},{\"name\":\"value\",\"targets\":2}],\"order\":[],\"autoWidth\":false,\"orderClasses\":false,\"lengthMenu\":[10,15,25,50,100]}},\"evals\":[],\"jsHooks\":[]}</script>\n```\n\n:::\n:::\n\n\n\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {
+      "include-in-header": [
+        "<link href=\"../../site_libs/htmltools-fill-0.5.9/fill.css\" rel=\"stylesheet\" />\n<script src=\"../../site_libs/htmlwidgets-1.6.4/htmlwidgets.js\"></script>\n<link href=\"../../site_libs/datatables-css-0.0.0/datatables-crosstalk.css\" rel=\"stylesheet\" />\n<script src=\"../../site_libs/datatables-binding-0.34.0/datatables.js\"></script>\n<script src=\"../../site_libs/jquery-3.6.0/jquery-3.6.0.min.js\"></script>\n<link href=\"../../site_libs/dt-core-1.13.6/css/jquery.dataTables.min.css\" rel=\"stylesheet\" />\n<link href=\"../../site_libs/dt-core-1.13.6/css/jquery.dataTables.extra.css\" rel=\"stylesheet\" />\n<script src=\"../../site_libs/dt-core-1.13.6/js/jquery.dataTables.min.js\"></script>\n<link href=\"../../site_libs/crosstalk-1.2.2/css/crosstalk.min.css\" rel=\"stylesheet\" />\n<script src=\"../../site_libs/crosstalk-1.2.2/js/crosstalk.min.js\"></script>\n"
+      ]
+    },
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

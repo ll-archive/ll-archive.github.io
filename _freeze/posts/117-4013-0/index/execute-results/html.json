@@ -1,0 +1,19 @@
+{
+  "hash": "0a878518620440af4d0a1cb985a8677b",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Bijou Assort Check Skirt\"\ndate: last-modified\ndescription: \"ビジューアソートチェックスカート\"\ncategories: [Bottoms, Fall 2021]\n---\n\n![](117-4013-0-m-01-pl.jpg){width=48%} ![](117-4013-0-m-02-pl.jpg){width=48%}\n![](117-4013-0-s-05-pl.jpg){width=48%} ![](117-4013-0-s-14-pl.jpg){width=48%}\n\n\n::: {.cell}\n::: {.cell-output-display}\n\n```{=html}\n<div class=\"datatables html-widget html-fill-item\" id=\"htmlwidget-d8d31a0b409443484fac\" style=\"width:100%;height:auto;\"></div>\n<script type=\"application/json\" data-for=\"htmlwidget-d8d31a0b409443484fac\">{\"x\":{\"filter\":\"none\",\"vertical\":false,\"data\":[[\"1\",\"2\",\"3\",\"4\",\"5\",\"6\",\"7\",\"8\",\"9\",\"10\",\"11\"],[\"id\",\"en_name\",\"jp_name\",\"category\",\"season\",\"price\",\"jp_desc\",\"jp_material\",\"jp_size\",\"jp_color\",\"jp_size_label\"],[\"117-4013-0\",\"Bijou Assort Check Skirt\",\"ビジューアソートチェックスカート\",\"Bottoms\",\"Fall 2021\",\"6900\",\"LIZLISA定番のチェックスカートが今年も登場♡ふわふわとしたチェック生地にキラキラビジューの組み合わせはこの季節から大活躍間違いなしです\",\"【110色】（表地）ポリエステル：100%　　（裏地）ポリエステル：100%　　　【160色】（表地）ポリエステル：85%、 ウール：15%　　（ 裏地）ポリエステル：100%\",\"脇丈44cm　ウエスト64.5cm（最大76.5cm）　裾巾60.5cm　ベルト巾5cm\",\"ピンク(110) /ラベンダー(160)\",\"Free\"]],\"container\":\"<table class=\\\"display\\\">\\n  <thead>\\n    <tr>\\n      <th> <\\/th>\\n      <th>detail<\\/th>\\n      <th>value<\\/th>\\n    <\\/tr>\\n  <\\/thead>\\n<\\/table>\",\"options\":{\"pageLength\":15,\"columnDefs\":[{\"orderable\":false,\"targets\":0},{\"name\":\" \",\"targets\":0},{\"name\":\"detail\",\"targets\":1},{\"name\":\"value\",\"targets\":2}],\"order\":[],\"autoWidth\":false,\"orderClasses\":false,\"lengthMenu\":[10,15,25,50,100]}},\"evals\":[],\"jsHooks\":[]}</script>\n```\n\n:::\n:::\n\n\n\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {
+      "include-in-header": [
+        "<link href=\"../../site_libs/htmltools-fill-0.5.9/fill.css\" rel=\"stylesheet\" />\n<script src=\"../../site_libs/htmlwidgets-1.6.4/htmlwidgets.js\"></script>\n<link href=\"../../site_libs/datatables-css-0.0.0/datatables-crosstalk.css\" rel=\"stylesheet\" />\n<script src=\"../../site_libs/datatables-binding-0.34.0/datatables.js\"></script>\n<script src=\"../../site_libs/jquery-3.6.0/jquery-3.6.0.min.js\"></script>\n<link href=\"../../site_libs/dt-core-1.13.6/css/jquery.dataTables.min.css\" rel=\"stylesheet\" />\n<link href=\"../../site_libs/dt-core-1.13.6/css/jquery.dataTables.extra.css\" rel=\"stylesheet\" />\n<script src=\"../../site_libs/dt-core-1.13.6/js/jquery.dataTables.min.js\"></script>\n<link href=\"../../site_libs/crosstalk-1.2.2/css/crosstalk.min.css\" rel=\"stylesheet\" />\n<script src=\"../../site_libs/crosstalk-1.2.2/js/crosstalk.min.js\"></script>\n"
+      ]
+    },
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
