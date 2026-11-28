@@ -1,0 +1,19 @@
+{
+  "hash": "d197c3bdd2bf63d1ed85e1f55a8c4967",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Rose Ribbon Chiffon Set-Up\"\ndate: last-modified\ndescription: \"ローズリボンシフォンセットアップ\"\ncategories: [Dress, Spring 2025]\n---\n\n![](151-6317-0-m-01-pl.jpg){width=48%} ![](151-6317-0-m-02-pl.jpg){width=48%}\n![](151-6317-0-m-03-pl.jpg){width=48%} ![](151-6317-0-s-01-pl.jpg){width=48%}\n\n\n::: {.cell}\n::: {.cell-output-display}\n\n```{=html}\n<div class=\"datatables html-widget html-fill-item\" id=\"htmlwidget-850144a9c6199b5d3550\" style=\"width:100%;height:auto;\"></div>\n<script type=\"application/json\" data-for=\"htmlwidget-850144a9c6199b5d3550\">{\"x\":{\"filter\":\"none\",\"vertical\":false,\"data\":[[\"1\",\"2\",\"3\",\"4\",\"5\",\"6\",\"7\",\"8\",\"9\",\"10\",\"11\"],[\"id\",\"en_name\",\"jp_name\",\"category\",\"season\",\"price\",\"jp_desc\",\"jp_material\",\"jp_size\",\"jp_color\",\"jp_size_label\"],[\"151-6317-0\",\"Rose Ribbon Chiffon Set-Up\",\"ローズリボンシフォンセットアップ\",\"Dress\",\"Spring 2025\",\"15800\",\"LIZ LISA王道の花柄セットアップがアップデートして登場♡軽やかなシフォン素材にオリジナルの花柄をプリントして春夏らしい軽やかなセットアップに仕上げました。フロントカシュクールデザインがプリンセスライクな印象に。オフショルデザインで、肩のチャームはお取り外しが可能です。リボンブローチも胸元やウエストなどお好きな位置に付けて頂けます。スカパンだけでもお手持ちのトップスと合わせて頂けるよう、デザインやシルエットにこだわりました。チュールの分量を調整し、ふんわり可愛く広がるように仕上げました。\",\"表地 ポリエステル100% / 裏地 ポリエステル 100% / レース ナイロン 96％ / ポリウレタン4％\",\"(TOPS) 身丈 73cm / 身幅 51.5cm / ウエスト 68cm (最大) 98cm / 袖丈 58cm / 袖口 8cm / 裾幅 124cm (BOTTOMS) ウエスト 59m (最大) 101cm / ヒップ 52cm / 身丈 41.5cm / 裾幅 156.5cm\",\"ホワイト(101)/ピンク(110)/ラベンダー(160)\",\"Free\"]],\"container\":\"<table class=\\\"display\\\">\\n  <thead>\\n    <tr>\\n      <th> <\\/th>\\n      <th>detail<\\/th>\\n      <th>value<\\/th>\\n    <\\/tr>\\n  <\\/thead>\\n<\\/table>\",\"options\":{\"pageLength\":15,\"columnDefs\":[{\"orderable\":false,\"targets\":0},{\"name\":\" \",\"targets\":0},{\"name\":\"detail\",\"targets\":1},{\"name\":\"value\",\"targets\":2}],\"order\":[],\"autoWidth\":false,\"orderClasses\":false,\"lengthMenu\":[10,15,25,50,100]}},\"evals\":[],\"jsHooks\":[]}</script>\n```\n\n:::\n:::\n\n\n\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {
+      "include-in-header": [
+        "<link href=\"../../site_libs/htmltools-fill-0.5.9/fill.css\" rel=\"stylesheet\" />\n<script src=\"../../site_libs/htmlwidgets-1.6.4/htmlwidgets.js\"></script>\n<link href=\"../../site_libs/datatables-css-0.0.0/datatables-crosstalk.css\" rel=\"stylesheet\" />\n<script src=\"../../site_libs/datatables-binding-0.34.0/datatables.js\"></script>\n<script src=\"../../site_libs/jquery-3.6.0/jquery-3.6.0.min.js\"></script>\n<link href=\"../../site_libs/dt-core-1.13.6/css/jquery.dataTables.min.css\" rel=\"stylesheet\" />\n<link href=\"../../site_libs/dt-core-1.13.6/css/jquery.dataTables.extra.css\" rel=\"stylesheet\" />\n<script src=\"../../site_libs/dt-core-1.13.6/js/jquery.dataTables.min.js\"></script>\n<link href=\"../../site_libs/crosstalk-1.2.2/css/crosstalk.min.css\" rel=\"stylesheet\" />\n<script src=\"../../site_libs/crosstalk-1.2.2/js/crosstalk.min.js\"></script>\n"
+      ]
+    },
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
