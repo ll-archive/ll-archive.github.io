@@ -1,0 +1,20 @@
+---
+title: "Terrier Cherry Print Jumper"
+date: last-modified
+description: "テリアチェリー柄ジャンスカ"
+categories: [Dress, Summer 2019]
+---
+
+![](195-6003-0-s-01-pl.jpg){width=48%} ![](195-6003-0-s-02-pl.jpg){width=48%}
+![](195-6003-0-s-03-pl.jpg){width=48%} ![](195-6003-0-s-04-pl.jpg){width=48%}
+
+```{r}
+#| echo: false
+#| warning: false
+library(DT)
+library(tidyverse)
+item_df <- read.csv(file.path(paste0("info_", "195-6003-0", ".csv")))
+DT::datatable(item_df, options = list(pageLength = 15))
+```
+
+

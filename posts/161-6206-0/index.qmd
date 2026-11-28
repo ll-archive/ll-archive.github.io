@@ -1,0 +1,20 @@
+---
+title: "Tweed Jacket Set-Up"
+date: last-modified
+description: "ツイードジャケットセットアップ"
+categories: [Dress, Winter 2026]
+---
+
+![](161-6206-0-m-01-pl.jpg){width=48%} ![](161-6206-0-m-02-pl.jpg){width=48%}
+![](161-6206-0-m-03-pl.jpg){width=48%} ![](161-6206-0-s-16-pl.jpg){width=48%}
+
+```{r}
+#| echo: false
+#| warning: false
+library(DT)
+library(tidyverse)
+item_df <- read.csv(file.path(paste0("info_", "161-6206-0", ".csv")))
+DT::datatable(item_df, options = list(pageLength = 15))
+```
+
+
